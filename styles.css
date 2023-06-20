@@ -1,49 +1,110 @@
-/* Estilos para el encabezado */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&family=Source+Code+Pro:wght@300;500;800&display=swap');
+
+body {
+  background-color: #f8f8f8;
+  color: #333333;
+  font-family: 'Courier New', Courier, monospace ;
+  margin: 0;
+  padding: 20px;
+}
+
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-  }
-  
-  h1 {
-    margin: 0;
-  }
-  
-  /* Estilos para la barra de navegación */
-  nav {
-    background-color: #f2f2f2;
-    padding: 10px;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  li {
-    display: inline;
-    margin-right: 10px;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #333;
-  }
-  
-  /* Estilos para la sección principal */
-  section {
-    padding: 20px;
-  }
-  
-  h2 {
-    color: #333;
-  }
-  
-  /* Estilos para el pie de página */
-  footer {
-    background-color: #f2f2f2;
-    padding: 10px;
-    text-align: center;
+  background-color: #ffffff;
+  border-bottom: 1rem solid;
+  padding: 20px;
+}
+
+h1 {
+  color: #333333;
+  text-align: center;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu li a {
+  color: #000000;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.menu li a:hover {
+  background-color: #dddddd;
+  border-radius: 4px;
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+}
+
+.primera-column {
+  flex: 4;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.segunda-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section {
+  margin: 0 auto;
+  max-width: 700px;
+  background-color: #F1E6D9;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+.section-image {
+  float: right;
+  width: 200px;
+  height: auto;
+}
+
+h2 {
+  color: #333333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #555555;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #ffffff;
+  border-top: 1px solid #dddddd;
+  padding: 20px 0;
+  text-align: center;
+  color: #888888;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
   }
   
